@@ -223,6 +223,7 @@ i{
 
 span{
     transition: background-color 0.05s; 
+    cursor: pointer;
 }
 
 span:hover {
