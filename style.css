@@ -1,0 +1,230 @@
+:root{
+    --primary-light: #eee;
+    --primary-dark: #111;
+    --secondary-dark: #222;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--secondary-dark);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-dark);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+html, body {
+    height: 100%;
+    width: 100vw;
+    color:#d1d1d1;
+    background-color: var(--primary-dark);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hamburger{
+    cursor: pointer;
+}
+
+
+
+nav {
+    height: 50px;
+    background-color: var(--secondary-dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+input{
+    height: 30px;
+    border: none;
+    width: 600px;
+    background-color: var(--primary-dark);
+    padding: 10px;
+}
+
+.img{
+    height: 20px;
+    width: 20px;
+}
+.mobile-side-nav{
+    width: 100px;
+    height: calc(100vh - 40px);
+    background-color: var(--secondary-dark);
+    display: none;
+    
+}
+
+
+
+.side-nav{
+    width: 300px;
+    height: calc(100vh - 40px);
+    background-color: var(--secondary-dark);
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    height:280px;
+    padding-top: 20px;
+}
+.subs{
+    display: flex;
+    flex-direction: column;
+    height:800px;
+}
+
+.hr{
+    width:300px;
+    height:2px;
+    background-color:var(--primary-dark);
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+span{
+    height:30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color:#d1d1d1;
+    font-size:1.1rem;
+}
+.avatar{
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-right:25px;
+ 
+}
+h3{
+    margin-left:22px;
+    margin-bottom: 10px;
+    color:#888;
+    font-weight: 400;
+
+}
+
+i{
+    margin-right: 10px;
+    color:#888;
+    padding-right: 20px;
+    font-size: 3rem;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+   
+}
+.hamburger{
+    margin-left: 60px;
+}
+
+.youtube{
+    margin-left: -35px;
+    color: white;
+}
+
+.avatar:nth-child(odd){
+    background-image: url('https://pmchollywoodlife.files.wordpress.com/2017/07/kylie-selfie-ftr-1.jpg?w=620');
+}
+.avatar:nth-child(even){
+    background-image: url('download.jpg');
+}
+.right{
+    justify-content: space-around;
+    width: 200px;
+}
+
+.settle{
+    display:flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.settle i{
+    font-size: 2em;
+    padding:5px;
+    padding-bottom: 10px;
+    
+    
+}
+.btn {
+    outline: 0;
+    border: 0;
+    height: 30px;
+    width: 70px;
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn i {
+    margin: 0;
+    padding: 0;
+    color: #888;
+}
+
+span{
+    transition: background-color 0.05s; 
+}
+
+span:hover {
+    background-color: rgba(255,255,255,0.1);
+}
