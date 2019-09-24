@@ -229,3 +229,185 @@ span{
 span:hover {
     background-color: rgba(255,255,255,0.1);
 }
+
+.root{
+    height: calc(100vh - 50px);
+    width: calc(100vw - 300px);
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    overflow: scroll;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    align-items: center;
+    
+    width: calc(100vw - 300px);
+    padding-top: 50px;
+    padding-right:10px;
+
+}
+.grid{
+    height: 400px;
+    width:300px;
+    padding:10px;
+    transition: background-color 0.05s; 
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+grid:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+
+.image1{
+    background-image: url('image1.jpg');
+    height:200px;
+    width:240px;
+    padding:4px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.image2{
+    background-image: url('image2.jpg');
+    height:200px;
+    width:240px;
+    padding:4px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.image3{
+    background-image: url('image3.jpg');
+    height:200px;
+    width:240px;
+    padding:4px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.image4{
+    background-image: url('image4.jpg');
+    height:200px;
+    width:240px;
+    padding:4px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.image5{
+    background-image: url('image5.jpg');
+    height:200px;
+    width:240px;
+    padding:4px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.image6{
+    background-image: url('image6.jpg');
+    height:200px;
+    width:240px;
+    padding:4px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.image7{
+    background-image: url('image7.jpg');
+    height:200px;
+    width:240px;
+    padding:4px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.image8{
+    background-image: url('image8.jpg');
+    height:200px;
+    width:240px;
+    padding:4px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.image9{
+    background-image: url('image9.jpg');
+    height:200px;
+    width:240px;
+    padding:4px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.image10{
+    background-image: url('image10.jpg');
+    height:200px;
+    width:240px;
+    padding:4px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.image11{
+    background-image: url('image11.jpg');
+    height:200px;
+    width:240px;
+    padding:4px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.image12{
+    background-image: url('image12.jpg');
+    height:200px;
+    width:240px;
+    padding:4px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+@media  screen and(max-width: 600px){
+    .gridContainer{
+        grid-template-columns: 100%;
+    }
+    .side-nav{
+        display: none;
+    }
+    .mobile-side-nav{
+        display: block;
+    }
+
+}
+
