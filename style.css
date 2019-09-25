@@ -241,8 +241,8 @@ span:hover {
 
 .gridContainer{
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: center;
+    grid-template-columns: 33% 33% 34%;
+    justify-content: space-around;
     align-items: center;
     
     width: calc(100vw - 300px);
@@ -397,17 +397,62 @@ grid:hover {
     background-size: cover;
     
 }
+.root{
+    padding-left:90px;
 
-@media  screen and(max-width: 600px){
-    .gridContainer{
-        grid-template-columns: 100%;
+
+}
+
+@media (max-width: 600px){
+   
+    input{
+        width: 100px;
+        
     }
-    .side-nav{
+    .btn{
+        width:25px;
+        
+    }
+    .hamburger{
         display: none;
     }
     .mobile-side-nav{
         display: block;
+        
+    }
+    .side-nav{
+        display: none;
+    }
+    .gridContainer{
+        grid-template-columns: 100%;
+        width: 375px;
+    }
+    
+    .one{
+        display: none;
+    }
+    .two{
+        display: none;
+    }
+    .three{
+        display: none;
+    }
+    .hello{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        padding-left: 0px;
+        padding-right: 10x;
+    }
+    .avatar{
+        margin-left: 60px;
+    }
+    .middle{
+        margin-left: 25px;
     }
 
 }
+
 
