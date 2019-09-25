@@ -242,10 +242,10 @@ span:hover {
 .gridContainer{
     display: grid;
     grid-template-columns: 33% 33% 34%;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     
-    width: calc(100vw - 300px);
+    width: calc(100vw - 400px);
     padding-top: 50px;
     padding-right:10px;
 
@@ -418,6 +418,7 @@ grid:hover {
     }
     .mobile-side-nav{
         display: block;
+        width: 100px;
         
     }
     .side-nav{
@@ -425,7 +426,7 @@ grid:hover {
     }
     .gridContainer{
         grid-template-columns: 100%;
-        width: 375px;
+        width: calc(100vw - 400px);
     }
     
     .one{
@@ -444,13 +445,19 @@ grid:hover {
     }
     .logo{
         padding-left: 0px;
-        padding-right: 10x;
+        padding-right: 10px;
     }
     .avatar{
         margin-left: 60px;
     }
     .middle{
         margin-left: 25px;
+    }
+    .root{
+        width: 375px;
+        margin-left: -250px;
+        margin-right: 0;
+
     }
 
 }
