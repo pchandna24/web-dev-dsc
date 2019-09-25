@@ -444,11 +444,11 @@ grid:hover {
         align-items: center;
     }
     .logo{
-        padding-left: 0px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 0px;
     }
     .avatar{
-        margin-left: 60px;
+        margin-left: 50px;
     }
     .middle{
         margin-left: 25px;
