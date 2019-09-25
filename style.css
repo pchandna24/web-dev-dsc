@@ -455,13 +455,14 @@ grid:hover {
     }
     .root{
         width: 375px;
-        margin-left: -300px;
+        margin-left: -290px;
         margin-right: 0;
-
+       
     }
     ::-webkit-scrollbar { 
         display: none; 
     }
+    
 
 }
 
