@@ -459,6 +459,9 @@ grid:hover {
         margin-right: 0;
 
     }
+    ::-webkit-scrollbar { 
+        display: none; 
+    }
 
 }
 
