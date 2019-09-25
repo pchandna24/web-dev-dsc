@@ -454,9 +454,9 @@ grid:hover {
         margin-left: 25px;
     }
     .root{
-        width: 375px;
+        width: 360px;
         margin-left: -290px;
-        margin-right: 0;
+        margin-right: 5px;
        
     }
     ::-webkit-scrollbar { 
