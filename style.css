@@ -418,7 +418,7 @@ grid:hover {
     }
     .mobile-side-nav{
         display: block;
-        width: 75px;
+        width: 70px;
         
     }
     .side-nav{
@@ -456,7 +456,8 @@ grid:hover {
     .root{
         width: 360px;
         margin-left: -290px;
-        margin-right: 5px;
+        padding-left: 70px;
+        padding-right: 10px;
        
     }
     ::-webkit-scrollbar { 
