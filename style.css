@@ -418,7 +418,7 @@ grid:hover {
     }
     .mobile-side-nav{
         display: block;
-        width: 100px;
+        width: 75px;
         
     }
     .side-nav{
@@ -426,7 +426,7 @@ grid:hover {
     }
     .gridContainer{
         grid-template-columns: 100%;
-        width: calc(100vw - 400px);
+        
     }
     
     .one{
@@ -455,7 +455,7 @@ grid:hover {
     }
     .root{
         width: 375px;
-        margin-left: -250px;
+        margin-left: -300px;
         margin-right: 0;
 
     }
